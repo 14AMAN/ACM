@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.container
+{
+    max-width: 80%;
+    padding: 34px;
+    margin: auto;
+    
+}
+.container h1{
+    font-family: 'Ceviche One', cursive;
+    text-align: center;
+font-size: 41px;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+}
+input
+{
+    width: 70%;
+    margin: 7px;
+    padding: 4px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 6px;
+    
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center ;
+    
+}
+.sbmt{
+    color: rgb(3, 44, 23);
+    padding: 15px 10px;
+    background: #055705;
+    color: thistle;
+    cursor: pointer;
+
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    font-size: 8;
+
+    opacity: 0.6;
+}
+.sms{
+    color: green;
+}
